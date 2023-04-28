@@ -1,0 +1,40 @@
+{
+  "name": "compiler",
+  "version": "1.0.0",
+  "description": "sholud be able to run a code and return the result",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "dev": "ts-node-dev index.ts",
+    "test": "jest"
+  },
+  "author": "Jhoel Flores",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

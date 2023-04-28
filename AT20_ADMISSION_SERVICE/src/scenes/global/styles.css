@@ -1,0 +1,44 @@
+/*-----------------------------------*\
+    #Topbar
+\*-----------------------------------*/
+
+
+.topbar-icon-button {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/*-----------------------------------*\
+    #Sidebar
+\*-----------------------------------*/
+
+.menu-item {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.menu-tittle {
+    padding-left: 8%;
+    margin: 10px 0 20px 0;
+}
+
+.profile-user-sector {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-user {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.divider {
+    width: 80%;
+}

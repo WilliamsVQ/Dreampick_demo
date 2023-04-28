@@ -1,0 +1,35 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.selector {
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    flex-grow: auto;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+}
+
+.output {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}

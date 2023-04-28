@@ -1,0 +1,29 @@
+.edit-form {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.edit-form>div {
+    grid-column: span 4;
+}
+
+@media (min-width: 600px) {
+    .edit-form>div {
+        grid-column: unset;
+    }
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.span-4 {
+    grid-column: span 4;
+}
+
+.button-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

@@ -1,0 +1,127 @@
+[
+    {
+        "id": 0,
+        "question": "What is the next number in the sequence: 1, 1, 2, 3, 5, 8, ___?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op4",
+        "options": [
+            {
+                "value": "op1",
+                "label": "9"
+            },
+            {
+                "value": "op2",
+                "label": "10"
+            },
+            {
+                "value": "op3",
+                "label": "11"
+            },
+            {
+                "value": "op4",
+                "label": "13"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "question": "Which of the following is not a valid testing technique?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Boundary value analysis"
+            },
+            {
+                "value": "op2",
+                "label": "Pie charting"
+            },
+            {
+                "value": "op3",
+                "label": "Equivalence partitioning"
+            },
+            {
+                "value": "op4",
+                "label": "State transition testing"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "What is the difference between verification and validation?",
+        "imgSrc": "",
+        "type": "checkBox",
+        "answer": "op1,op3",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Verification is the process of checking whether the software meets the specified requirements, while validation is the process of checking whether the software meets the customer's needs and expectations."
+            },
+            {
+                "value": "op2",
+                "label": "Verification is the process of checking whether the software meets the customer's needs and expectations, while validation is the process of checking whether the software meets the specified requirements."
+            },
+            {
+                "value": "op3",
+                "label": "Verification is a static process that occurs before validation, while validation is a dynamic process that occurs during or after verification."
+            },
+            {
+                "value": "op4",
+                "label": "Verification and validation are the same thing."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is not a type of software testing?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Unit testing"
+            },
+            {
+                "value": "op2",
+                "label": "Integration testing"
+            },
+            {
+                "value": "op3",
+                "label": "Acceptance testing"
+            },
+            {
+                "value": "op4",
+                "label": "Beta testing"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What is the purpose of a bug report?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op3",
+        "options": [
+            {
+                "value": "op1",
+                "label": "To provide feedback to the developers about the quality of the software."
+            },
+            {
+                "value": "op2",
+                "label": "To provide instructions to the testers on how to test the software."
+            },
+            {
+                "value": "op3",
+                "label": "To provide information about a defect in the software to the developers and other stakeholders."
+            },
+            {
+                "value": "op4",
+                "label": "To document the test cases that have been executed on the software."
+            }
+        ]
+    }
+]

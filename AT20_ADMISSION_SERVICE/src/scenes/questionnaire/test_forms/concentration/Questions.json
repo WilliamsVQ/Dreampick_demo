@@ -1,0 +1,126 @@
+[
+    {
+        "id": 0,
+        "question": "What does the acronym QA stand for in the context of software development?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Quality Analysis"
+            },
+            {
+                "value": "op2",
+                "label": "Quality Assurance"
+            },
+            {
+                "value": "op3",
+                "label": "Quantitative Analysis"
+            },{
+                "value": "op4",
+                "label": "Question Answering"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "question": "In Agile development, what is the term used for a brief meeting where team members share updates on their work progress?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op3",
+        "options": [
+            {
+                "value": "op1",
+                "label": " Sprint planning"
+            },
+            {
+                "value": "op2",
+                "label": " Retrospective"
+            },
+            {
+                "value": "op3",
+                "label": "Daily stand-up"
+            },
+            {
+                "value": "op4",
+                "label": "Review meeting"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "In which phase of the Software Development Life Cycle (SDLC) is the actual code of the software written?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op3",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Requirement analysis"
+            },
+            {
+                "value": "op2",
+                "label": "Design"
+            },
+            {
+                "value": "op3",
+                "label": "Implementation"
+            },
+            {
+                "value": "op4",
+                "label": "Testing"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Which of the following statements about black-box testing is NOT true?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": " Black-box testing focuses on the functionality of the software."
+            },
+            {
+                "value": "op2",
+                "label": "Black-box testing requires knowledge of the internal structure of the code."
+            },
+            {
+                "value": "op3",
+                "label": "Black-box testing is based on the software's requirements and specifications."
+            },
+            {
+                "value": "op4",
+                "label": "Black-box testing can be performed at any stage of the development process."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What is the purpose of the try-except block in Python?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "To make the code run faster"
+            },
+            {
+                "value": "op2",
+                "label": "To handle errors and exceptions gracefully"
+            },
+            {
+                "value": "op3",
+                "label": "To loop through a block of code"
+            },
+            {
+                "value": "op4",
+                "label": " To test whether a condition is true"
+            }
+        ]
+    }
+]

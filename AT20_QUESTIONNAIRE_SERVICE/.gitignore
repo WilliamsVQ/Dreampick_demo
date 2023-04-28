@@ -1,0 +1,4 @@
+/node_modules
+/logs
+src/services/DB/logs
+src/services/logs

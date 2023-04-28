@@ -1,0 +1,126 @@
+[
+    {
+        "id": 0,
+        "question": "A QA engineer needs to test a mobile application that allows users to locate nearby restaurants. The application should display the restaurant's name, distance, and rating. Which of the following test scenarios is the most relevant for testing the main functionality?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Verify if the application can be installed on different mobile devices"
+            },
+            {
+                "value": "op2",
+                "label": "Check if the application can locate nearby restaurants based on the user's location"
+            },
+            {
+                "value": "op3",
+                "label": "Test if the user can change the font size in the application"
+            },{
+                "value": "op4",
+                "label": "Confirm that the application shows a tutorial for first-time users"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "question": "Consider the following software components: A, B, and C. If component A interacts with component B and component B interacts with component C, which of the following statements is true?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": " Component A does not interact with component C."
+            },
+            {
+                "value": "op2",
+                "label": " Component A interacts with component C indirectly."
+            },
+            {
+                "value": "op3",
+                "label": "Component A interacts with component C directly."
+            },
+            {
+                "value": "op4",
+                "label": "There is not enough information to determine the interaction between component A and component C."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "In the context of software testing, what is the main purpose of a test case?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "To identify software requirements"
+            },
+            {
+                "value": "op2",
+                "label": "To specify the conditions under which a test is to be executed and the expected results"
+            },
+            {
+                "value": "op3",
+                "label": "To define the scope and objectives of a test"
+            },
+            {
+                "value": "op4",
+                "label": "To document the test plan and test strategy"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Imagine a cube with a side length of 2 units. If you slice the cube along the diagonal of one of its faces, how many triangular pieces would you create?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op1",
+        "options": [
+            {
+                "value": "op1",
+                "label": "2"
+            },
+            {
+                "value": "op2",
+                "label": "4"
+            },
+            {
+                "value": "op3",
+                "label": "6"
+            },
+            {
+                "value": "op4",
+                "label": "8"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "You need to arrange 8 cubes in a 2x2x2 configuration. How many cubes are exposed on the surface?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op3",
+        "options": [
+            {
+                "value": "op1",
+                "label": "4"
+            },
+            {
+                "value": "op2",
+                "label": "6"
+            },
+            {
+                "value": "op3",
+                "label": "8"
+            },
+            {
+                "value": "op4",
+                "label": "12"
+            }
+        ]
+    }
+]

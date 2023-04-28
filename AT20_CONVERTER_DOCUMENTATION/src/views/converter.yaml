@@ -1,0 +1,207 @@
+openapi: 3.0.0
+info:
+  title: Converter API
+  description: Converter Audio Video Image PDF API
+  version: 0.1.9
+servers:
+  - url: http://localhost:9090/api/v1.0
+    description: Converter server
+
+paths:
+  /convert_audio/converter:
+    post:
+      summary: Upload a Audio
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                audio:
+                  name: audio
+                  type: string
+                  format: binary
+                typeTo:
+                  name: typeTo
+                  type: string
+                bitRate:
+                  name: bitRate
+                  type: string
+                duration:
+                  name: duration
+                  type: string
+                codec:
+                  name: codec
+                  type: string
+
+      responses:
+        '200':
+          description: 'A JSON array of successful converter and related info on the query'
+          content:
+            'application/json':
+              schema:
+                type: object
+                description: All the parameters returned from the search engine
+                properties:
+                  result_string:
+                    type: string
+                    description: The search result
+              examples:
+                typical_user:
+                  summary: "first result"
+                  value:
+                    result_string: 'Conversion Completed'
+                    download_URL: 'http://localhost:9090/api/v1.0/convert_audio/download?File'
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error
+      examples:
+        example1:
+          summary: Example of a request to convert an audio file
+          value:
+            audio: binary-audio-data
+            typeTo: mp3
+            bitRate: 128
+            duration: 60
+            codec: mp3
+
+  /convert_video/converter:
+    post:
+      summary: Upload a video
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                video:
+                  name: video
+                  type: string
+                  format: binary
+                typeTo:
+                  name: ext
+                  type: string
+                width:
+                  name: width
+                  type: string
+                height:
+                  name: height
+                  type: string
+                aspectRatio:
+                  name: aspectRatio
+                  type: string
+                autoCodec:
+                  name: autoCodec
+                  type: string
+                bitRate:
+                  name: bitRate
+                  type: string
+      responses:
+        '200':
+          description: File uploaded successfully
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error
+
+  /convert_image/converter:
+    post:
+      summary: Upload a image
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  name: image
+                  type: string
+                  format: binary
+                typeTo:
+                  name: ext
+                  type: string
+                width:
+                  name: width
+                  type: string
+                height:
+                  name: height
+                  type: string
+                rotate:
+                  name: rotate
+                  type: string
+                colors:
+                  name: colors
+                  type: string
+      responses:
+        '200':
+          description: File uploaded successfully
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error
+  /convert_pdf/converter:
+    post:
+      summary: Upload a pdf and return images
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                pdf:
+                  name: pdf
+                  type: string
+                  format: binary
+                typeTo:
+                  name: ext
+                  type: string
+                density:
+                  name: density
+                  type: string
+                quality:
+                  name: quality
+                  type: string
+
+          'example':
+              schema:
+                type: object
+                description: All the parameters returned from the search engine
+                properties:
+                  result_string:
+                    type: string
+                    description: The search result
+              examples:
+                    image:
+                      summary: "Example pdf convert"
+                      value:
+                        pdf: binary-pdf-data
+                        typeTo: jpg
+                        density: 150
+                        quality: 90
+      responses:
+        '200':
+          description: File uploaded successfully
+          content:
+            'application/json':
+              schema:
+                type: object
+                description: All the parameters returned from the search engine
+                properties:
+                  result_string:
+                    type: string
+                    description: The search result
+              examples:
+                typical_user:
+                  summary: "first result"
+                  value:
+                    result_string: 'Conversion Completed'
+                    download_URL: 'http://localhost:9090/api/v1.0/convert_pdf/download?File'
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error

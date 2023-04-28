@@ -1,0 +1,56 @@
+.form-container {
+    margin: 50px;
+}
+
+.form-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.form-grid>div {
+    grid-column: span 4;
+}
+
+.form-grid-span2 {
+    grid-column: span 2;
+}
+
+.form-end {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.custom-file-input {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-file-container {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.custom-file-container input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.no-file-chosen {
+    margin-left: 10px; 
+}
+
+.create-new-user {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

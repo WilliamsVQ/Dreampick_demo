@@ -1,0 +1,82 @@
+openapi: 3.0.0
+info:
+  title: Compiler API
+  description: Compile c# java javascript python
+  version: 0.1.9
+servers:
+  - url: http://localhost:9292/api/v1.0
+    description: Compiler server
+
+paths:
+  /compiler/:
+    post:
+      summary: Upload a file
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  name: file
+                  type: string
+                  format: binary
+                language:
+                  name: language
+                  type: string
+                version:
+                  name: version
+                  type: string
+          'example':
+              schema:
+                type: object
+                description: All the parameters returned from the search engine
+                properties:
+                  result_string:
+                    type: string
+                    description: The search result
+              examples:
+                python:
+                  summary: "Example python"
+                  value:
+                    audio: 'Upload a python file to be compile'
+                    language: 'python'
+                    version: '3.7'
+                java:
+                  summary: "Example java"
+                  value:
+                    audio: 'Upload a java file to be compile'
+                    language: 'java'
+                javascript:
+                  summary: "Example javascript"
+                  value:
+                    audio: 'Upload a javascript file to be compile'
+                    language: 'javascript'
+                    version: '3.7'
+                c_sharp:
+                  summary: "Example c#"
+                  value:
+                    audio: 'Upload a c_sharp file to be compile'
+                    language: 'c_sharp'
+      responses:
+        '200':
+          description: 'A JSON array of successful converter and related info on the query'
+          content:
+            'application/json':
+              schema:
+                type: object
+                description: All the parameters returned from the search engine
+                properties:
+                  result_string:
+                    type: string
+                    description: The search result
+              examples:
+                typical_user:
+                  summary: "Response"
+                  value:
+                    result_string: 'Result of the compile file'
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error

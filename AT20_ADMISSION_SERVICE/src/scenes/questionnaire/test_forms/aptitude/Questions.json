@@ -1,0 +1,108 @@
+[
+    {
+        "id": 0,
+        "question": "In a team project, you are assigned a task with a deadline of two weeks. What should be your first step?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Ask for more time"
+            },
+            {
+                "value": "op2",
+                "label": "Break down the task into smaller tasks and create a schedule"
+            },
+            {
+                "value": "op3",
+                "label": "Delegate the task to someone else"
+            }
+        ]
+    },
+
+    {
+        "id": 1,
+        "question": "You are given a project with a team of people you have never worked with before. What is the best approach to ensure the team's success?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op3",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Take complete control of the project"
+            },
+            {
+                "value": "op2",
+                "label": "Ignore the opinions of others"
+            },
+            {
+                "value": "op3",
+                "label": "Communicate effectively and listen to everyone's ideas "
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is an example of a cloud storage service?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op1",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Google Drive"
+            },
+            {
+                "value": "op2",
+                "label": "Microsoft Office"
+            },
+            {
+                "value": "op3",
+                "label": "WinRAR"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is an example of an operating system?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op1",
+        "options": [
+            {
+                "value": "op1",
+                "label": " Windows 10"
+            },
+            {
+                "value": "op2",
+                "label": "Microsoft Word"
+            },
+            {
+                "value": "op3",
+                "label": "Adobe Photoshop"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "When you encounter a problem that you cannot solve, what should you do?",
+        "imgSrc": "",
+        "type": "radioButton",
+        "answer": "op2",
+        "options": [
+            {
+                "value": "op1",
+                "label": "Give up immediately"
+            },
+            {
+                "value": "op2",
+                "label": "Wait for someone else to solve it"
+            },
+            {
+                "value": "op3",
+                "label": "Ask for help or research possible solutions"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "7",
+        "host": "Pepito Perez",
+        "guests": [
+            { "name": "Juan Luis Guerra"},
+            { "name": "Adele"},
+            { "name": "Alejandro Sanz"},
+            { "name": "Lewis Capaldi"},
+            { "name": "Dan Reynols"}
+        ],
+        "meeting_name": "Informative meeting",
+        "description": "Meeting to provide general information about the AT specialization.",
+        "date" : "2023-3-31",
+        "start_time": "02:00 AM",
+        "end_time": "07:00 PM",
+        "time_zone": "Bolivia CMT: -4"
+    },
+    {
+        "id": "9",
+        "host": "Dan Reynols",
+        "guests": [
+            { "name": "Juan Luis Guerra"},
+            { "name": "Adele"},
+            { "name": "Alejandro Sanz"},
+            { "name": "Lewis Capaldi"},
+            { "name": "Pepito Perez"}
+        ],
+        "meeting_name": "Technical Interview",
+        "description": "Interview to evaluate technical skills of the candidates.",
+        "date": "2023-4-01",
+        "start_time": "06:00 PM",
+        "end_time": "07:00 PM",
+        "time_zone": "Bolivia CMT: -4"
+    }
+
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "answer": "op2"
+    },
+    {
+        "id": 1,
+        "answer": "op4"
+    },
+    {
+        "id": 2,
+        "answer": "op3"
+    },
+    {
+        "id": 3,
+        "answer": "op4"
+    },
+    {
+        "id": 4,
+        "answer": "op1,op3,op5"
+    }
+]
